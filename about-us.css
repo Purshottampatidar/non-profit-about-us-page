@@ -579,10 +579,12 @@
     
     .input-subscribe-container{
         flex-direction: row;
-        /* height:4.2rem; */
+        justify-content: space-evenly;
     }
-
-
+    .subscribe-text{
+        font-size:2.7rem;
+        /* width:50rem; */
+    }
     /*---------------------- footer section--------------------- */
     .footer-content{
         flex-direction: row;
@@ -799,6 +801,9 @@
     }
     .input-subscribe-container{
         flex-direction: row;
+    }
+    .sub-btn{
+        align-self: flex-end;
     }
     
 
