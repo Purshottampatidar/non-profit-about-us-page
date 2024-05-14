@@ -26,8 +26,7 @@
     background-color:white;
 }
 .hero-card-btn {
-    /* align-self: center; */
-    transform:translateY(-50%);
+    align-self: flex-start;
 
 }
 .hero-container{
@@ -395,6 +394,10 @@
         font-size:2.5rem;
         text-align: start;
     }
+    .hero-card-btn{
+        margin-left:2rem;
+        transform: translateY(-50%);
+    }
     /*----------- navigation section----------------------------- */
     .navigation-container {
         flex-direction: row;
@@ -651,11 +654,6 @@
         padding-left:2rem;
         padding-bottom:5rem;
     }
-    .hero-card-btn {
-        /* align-self: flex-start; */
-        transform: translate(40%,-50%);
-    }  
-    
     /*------------------------ mission and value container-------------------- */
     .mission-value-container{
         justify-content: center;
