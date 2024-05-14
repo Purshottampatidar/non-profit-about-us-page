@@ -640,9 +640,9 @@
           }
     }  
     .hero-card-content{
-        font-size:3rem;
+        font-size:2.54rem;
         text-align: start;
-        padding-left:4rem;
+        padding-left:2rem;
         padding-bottom:5rem;
     }
     .hero-card-btn {
