@@ -613,7 +613,11 @@
                 }
             }
         }
+        .btn-donate{
+            transform: translateY(0%);
+        }
     }
+   
     /* -------------------------hero container----------------------------------- */
     .hero-container{
           flex-direction:row;
