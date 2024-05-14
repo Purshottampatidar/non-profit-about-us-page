@@ -93,6 +93,10 @@
 }
 .mission-card-logo{
     margin-bottom:1rem;
+    img{
+        width:3.5rem;
+        height:3.5rem;
+    }
 }
 
 /* -----------------------out team section--------------------- */
@@ -424,7 +428,8 @@
     .mission-card {
         max-width: 33%;
         align-items: start;
-        gap:1rem
+        gap:1rem;
+        margin-bottom: 0rem;
 
     }
     
@@ -432,17 +437,20 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
-        gap: 0rem;
+        gap: 4rem;
+    }
+    .mission-card-title{
+        font-size: 1.8rem;
     }
     .mission-card-text{
         text-align: start;
-        font-size:1.4rem;
+        font-size:1rem;
         margin-bottom:2rem;
-        width: 15rem;
+        width: 15rem
     }
     .mission-card-logo{
         margin-bottom:0rem;
-    }
+    } 
 
     /*---------our team section----------------------- */
 
@@ -662,19 +670,21 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
-        gap:2rem;
+        gap:5rem;
+        margin-top: 0rem 1rem;
     }
     .mission-card {
         max-width: 25%;
         align-items: start;
-        margin-top: 15px;
-        margin-bottom: 4rem;
-        /* gap:3rem */
+        /* margin-top: 15px; */
+        margin-bottom: 0rem;
+        gap:0rem;
 
     }
     .mission-card-text{
         text-align: start;
         font-size:1.2rem;
+        width:16rem;
     }
 
     /* -----------our team section------------------- */
