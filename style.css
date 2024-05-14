@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --shady-green: #C0F6D4;
+    --navy-blue: #354463;
+}
+html {
+    font-size: 10px;
+}
+.white-background{
+    background-color: white;
+    color: var(--navy-blue);
+}
+a,p,li {
+    line-height: 1.2;
+    font-size: 1.4rem;
+    list-style: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+img{
+    border: 0;
+}
+button {
+    border: none;
+}
+.main-title {
+    color: var(--navy-blue);
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+.padding-box {
+    padding: 3rem
+}
+
+.header-title {
+    white-space: pre-line;
+}
+.background-green {
+    background-color: var(--shady-green);
+    color: var(--navy-blue);
+}
+.green-button {
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    border-radius: 5rem;
+    background-color: var(--shady-green);
+    color: var(--navy-blue);
+    font-weight: bold;
+}
+.blue-btn{
+      background-color: var(--navy-blue);
+      color: white;
+      text-align: center;
+      width:16rem;
+      padding:1.4rem 3rem;
+      font-size:1.5rem;
+
+}
+.white-btn{
+    background-color: white;
+    color: var(--navy-blue);
+    text-align: center;
+    padding:1.3rem 3.5rem;
+    font-size:1.5rem;
+    line-height:1;
+}
+.flood-std-title{
+    font-family: 'flood std';
+    font-weight: 400;
+    font-size: 5.5rem;
+    color: white; 
+}
+.under-line{
+    color:var(--navy-blue);
+}
+
+/*----------------------------header section-------------------------------------*/
+.navigation-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0rem 3rem;
+    .header-main-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+         nav ul {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+
+            li a{
+                font-size: 1.4rem;
+                color: #5b5d5b;
+
+            }
+        }
+    }
+}
+.btn-donate:hover {
+    background-color:var(--navy-blue); 
+    color: #C0F6D4;;
+}
+
+
+/* -----------footer section------------ */
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    margin:2rem;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+
+.footer-title{
+    font-family: 'flood std';
+    font-weight: 400;
+    font-size: 3.5rem;
+    color:var(--navy-blue);
+    width:3rem;
+    text-align:end;
+}
+
+.contact,.learn,.follow{
+   border-bottom: 1px solid var(--navy-blue);
+   width: 14rem;
+   margin:2rem 0rem;
+   color:var(--navy-blue);
+   font-size:1.6rem;
+   font-weight: bold;
+}
+.contact-us-section,.learn-more-section,.follow-us-section,li{
+       line-height:1.6;
+       color:var(--navy-blue);
+}
+ 

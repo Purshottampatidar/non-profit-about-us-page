@@ -1,0 +1,797 @@
+/* -------------------------hero section ----------------------------- */
+.hero-section{
+    background: url(/about-us/annie-spratt-427339-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:1rem;
+
+}
+.hero-section-title{
+    font-family: 'flood std';
+    font-weight: 400;
+    font-size: 5.5rem;
+    color: white;
+    width:3rem;
+    margin:4rem 0rem;
+}
+.hero-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:white;
+}
+.hero-card-btn {
+    /* align-self: center; */
+    transform:translateY(-50%);
+
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    margin:3rem 0rem;
+}
+.hero-card-content{
+    padding:2rem ;
+    padding-bottom:5rem;
+    font-size:1.95rem;
+    font-weight: bold;
+    color:var(--navy-blue);
+    justify-content: center;
+    text-align: center
+}
+
+/* --------mission value section------------------- */
+
+.mission-value-section{
+    background-color: var(--navy-blue);
+    color:white;
+}
+.mission-value-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:7rem 1rem;
+}
+.mission-value-text{
+    font-size: 2.4rem;
+    font-weight: bolder;
+    text-align: center;
+    padding:3rem 0rem;
+    margin-bottom:5rem;
+    
+}
+.mission-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    
+}
+ .mission-card{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-start;
+    padding:0rem 1rem;
+    margin-bottom: 5rem;
+    height:15rem
+    
+}
+.mission-card-title{
+    font-size:2.3rem;
+    font-weight: bold;
+    margin-bottom:1rem;
+}
+.mission-card-text{
+    font-size:1.7rem;
+    color: #fff;
+    width:16em;
+    text-align: center;
+    line-height: 1.3;
+}
+.mission-card-logo{
+    margin-bottom:1rem;
+}
+
+/* -----------------------out team section--------------------- */
+.our-team-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:5rem;
+    padding-bottom:3rem;
+    margin:1rem;
+}
+.our-team-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    padding:0rem 1rem;
+}
+.our-team-content{
+    display: flex;
+    flex-direction: column;
+    margin:2rem 0rem;
+}
+.our-team-heading{
+    font-size:2.3rem;
+    line-height:1.1;
+    font-weight:bold;
+    color:var(--navy-blue);
+    /* padding:0rem 2.7rem; */
+}
+.our-team-text{
+    font-size:2.15rem;
+    padding:1rem 1rem 0em 1rem;
+    color:#5b5d5b;
+}
+.team-members-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team-member{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+
+}
+.team-member-title{
+    width: 100%;
+    font-size: 2rem;
+}
+
+/*-----------------our-impact-section -----------------------------*/
+
+.our-impact-section{
+    background: url(about-us/Impact\ Background.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    /* height:35rem; */
+    background-color:var(--navy-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.our-impact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 1rem;
+    margin:5rem 0rem;
+}
+.our-impact-text{
+    font-size:2.1rem ;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    margin: 2rem 0rem;
+    padding:1.5rem 1.1rem;
+    width:37rem
+}
+.our-impact-content-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+.impact-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0rem 3rem;
+    margin: 3rem 0rem;
+}
+.impact-card-text{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #fff;
+    width:20rem;
+   
+}
+.our-impact-btn{
+     padding:1.5rem 4.5rem;
+}
+/* -------------------take look back section----------------- */
+
+.take-look-section{
+    background-color: var(--navy-blue);
+    padding: 1.8rem 1.5rem;
+    .take-look-header-container {
+      position: relative;
+    }
+    .take-look-container {
+      display: flex;
+      flex-direction: column;
+      grid-template-columns: 1fr;
+      .take-look-title{
+        color: #fff;
+        font-family: "Flood Std";
+        font-size:4rem;
+        text-align: center;
+        margin:5rem 0rem;
+      }
+  
+      .arrow-btn {
+        position: absolute;
+        bottom: -75%;
+        right: 0;
+        background-color: #C0F6D4;
+        height: 6rem;
+        width: 6rem;
+        padding: 0.8rem;
+        border-radius: 50%;
+      }
+      .slider-container {
+        overflow-x: auto;
+      }
+      .card-slide {
+        display: flex;
+        width: 400%;
+        gap: 2rem;
+        .take-card {
+          max-width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          /* justify-content: center; */
+          .take-year {
+            background-color: #fff;
+            color: var(--navy-blue);
+            padding: 1.5rem 7rem;
+            transform: translateY(50%);
+          }
+          .image {
+            width: 100%;
+          }
+  
+          .image-card {
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+            padding:3rem;
+  
+            .take-card-title {
+              color: var(--navy-blue);
+              font-weight:bolder;
+              font-size: 2.6rem;
+              text-align:start;
+              margin-bottom:1.2rem;
+            }
+  
+            .card-info
+             {
+              text-align:start;
+              font-size: 1.9rem;
+              color:#5b5d5b;
+              /* padding-right:3rem; */
+              line-height: 1.5;
+              
+            }
+  
+            .read-btn {
+              background-color: #C0F6D4;;
+              color: var(--navy-blue);
+              font-size: 1.7rem;
+              font-weight: 600;
+              padding: 1.2rem 2rem;
+              border-radius: 5rem;
+              border: none;
+              align-self: flex-start;
+              margin: 1.5rem 0rem;
+            }
+            .read-btn:hover{
+                background-color: var(--navy-blue);
+                color:#C0F6D4 ;
+              }
+          }
+        }
+      }
+  
+      .animation-circle {
+        display: flex;
+        gap: 0.7rem;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom:3rem;
+        p {
+          height: 1em;
+          width: 1em;
+          background-color: white;
+          /* border-radius: 1rem; */
+        }
+  
+        .first-child {
+          background-color: var(--navy-blue);
+          border: 0.5px solid white;
+        }
+      }
+    }
+  }
+  
+/*------------------------------ subscribe section---------------- */
+.subscribe-section{
+    background-color: #C0F6D4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0rem;
+}
+.subscribe-container{
+    /* padding: 3rem 0rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:4rem 2rem;
+    gap:1.5rem;
+}
+.subscribe-text{
+    color: var(--navy-blue);
+    font-size: 1.9rem;
+    font-weight: bolder;
+}
+.input-subscribe-container{
+   display: flex;
+   flex-direction:column;
+   /* justify-content:space-between; */
+   width: 100%;
+   gap:2.5rem;
+}
+.email-input{
+    border: none;
+    font-size:1.5rem;
+    padding:1.5rem 8rem 1.5rem 2rem;
+    border-radius:2.5rem;
+
+}
+.sub-btn{
+    background-color: var(--navy-blue);
+    color:#C0F6D4;
+    font-size:1.5rem;
+    font-weight:bold;
+    padding:1.4rem 3rem;
+    border-radius:2.5rem;
+    letter-spacing:0.2rem;
+}
+
+
+@media(width > 668px) {
+    html {
+        font-size: 12px;
+    }
+
+    /* -------------------hero section-------------------- */
+    .sm-container{
+        max-width:650px;
+        padding:4rem;
+    }
+    .hero-card-content{
+        font-size:2.5rem;
+        text-align: start;
+    }
+    /*----------- navigation section----------------------------- */
+    .navigation-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .header-main-section {
+            flex-direction: column;
+            align-items: start;
+            gap: 2rem;
+
+            .navbar {
+                flex-direction: row;
+                gap: 2rem
+            }
+        }
+        .btn-donate{
+            transform: translateY(-50%);
+        }
+    }
+    
+    /* ------------------mission and value section------------------ */
+    .mission-value-container{
+        justify-content: flex-start;
+        align-items: start;
+        margin:0rem 1rem;
+
+        .mission-value-text{
+            text-align: start;
+            font-size: 2.8rem;
+            line-height: 1.3;
+        }
+
+    }
+    .mission-card {
+        max-width: 33%;
+        align-items: start;
+        gap:1rem
+
+    }
+    
+    .mission-card-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 0rem;
+    }
+    .mission-card-text{
+        text-align: start;
+        font-size:1.4rem;
+        margin-bottom:2rem;
+        width: 15rem;
+    }
+    .mission-card-logo{
+        margin-bottom:0rem;
+    }
+
+    /*---------our team section----------------------- */
+
+    .our-team-container{
+        align-items: start;
+        text-align: start;
+        margin:0rem 2rem;
+    }
+    .our-team-heading{
+        padding: 0;
+
+    }
+    .our-team-content{
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        margin-bottom:3rem;
+    }
+    .our-team-heading{
+        width: 50%;   
+    }
+    .our-team-text{
+        width: 50%;
+        margin-bottom: 1.5rem;
+    }
+    .team-members-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .team-member {
+        width: 44%; 
+        margin-right:2.3rem;
+        
+    }
+    .team-member-img {
+        width: 100%; 
+        height: auto; 
+        display: block; 
+    }
+    
+    .team-member-title {
+        width: 100%; 
+        font-size:1.5rem;
+        text-overflow: ellipsis; 
+        white-space: nowrap; 
+        transform: translate(10%,-50%);
+    }
+    /*----------oue impact section-------------- */
+   
+    .our-impact-content-card{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .impact-card{
+        width: 50%;
+    }
+    .our-impact-text{
+        width: 100%;
+    }
+
+    .take-look-card{
+        max-width: 50%;
+    }
+
+    /* ------------------------ take look section----------------------- */
+    .take-look-section .take-look-container {
+        margin: auto;
+        .take-look-header-container {
+          .take-look-title {
+            text-align: left;
+            width:60%;
+          }
+          .arrow-btn {
+            bottom: 50%;
+            transform: translateY(50%);
+            transform: translateX(-250%);
+          }
+        }
+    
+        .card-slide {
+          display: flex;
+          width: 200%;
+          gap: 2.5rem;
+          .take-card {
+            .take-year {
+              background-color: #fff;
+              color: var(--navy-blue);
+              padding: 0.7rem 4rem;
+              transform: translate(-25%,50%);
+            }
+            .image-card {
+              .take-card-title {
+                text-align: left;
+              }
+    
+              .take-card-text {
+                text-align: left;
+                font-size: 0.9rem;
+                line-height: 1.7rem;
+              }
+              .card-info{
+                   text-align: start;
+                   margin-right:5rem;
+                   line-height:1.3;
+              }
+    
+              .read-btn {
+                align-self: flex-start;
+                padding: 1.3rem 3rem;
+              }
+            }
+          }
+        }
+    }
+    /*-------------------- subscribe section------------------------------- */
+    
+    .input-subscribe-container{
+        flex-direction: row;
+        /* height:4.2rem; */
+    }
+
+
+    /*---------------------- footer section--------------------- */
+    .footer-content{
+        flex-direction: row;
+        justify-content: center;
+        gap:3rem;
+    }
+    .footer-title{
+        align-self: flex-end;
+        width:16rem;
+    }
+   
+}
+
+
+@media(width >1023px) {
+
+    .container{
+        max-width: 1200px;
+    }
+    html {
+        font-size: 12px;
+    }
+    .container{
+        margin: 0 auto;
+    }
+
+    /* --------------------------nevigation section ------------------- */
+    .navigation-container {
+        justify-content: space-between;
+        .header-main-section {
+            .main-title {
+                flex-grow: 1;
+            }
+
+            flex-grow: 2;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+
+            nav {
+                flex-grow: 5;
+
+                ul {
+                    justify-content: space-evenly;
+                }
+            }
+        }
+    }
+    /* -------------------------hero container----------------------------------- */
+    .hero-container{
+          flex-direction:row;
+          justify-content: space-between;
+          align-items: end;
+          gap:35rem;
+         
+          .hero-card{
+            max-width:50rem;
+            transform: translate(-8%,25%);
+            margin-top:8rem;
+          }
+    }  
+    .hero-card-content{
+        font-size:3rem;
+        text-align: start;
+        padding-left:4rem;
+        padding-bottom:5rem;
+    }
+    .hero-card-btn {
+        /* align-self: flex-start; */
+        transform: translate(40%,-50%);
+    }  
+    
+    /*------------------------ mission and value container-------------------- */
+    .mission-value-container{
+        justify-content: center;
+        align-items: center;
+        padding-left:4rem;
+
+        .mission-value-text{
+            text-align: start;
+            font-size: 4rem;
+            line-height: 1.3;
+        }
+
+    }
+    .mission-value-btn{
+        align-self: flex-start;
+    }
+    .mission-card-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap:2rem;
+    }
+    .mission-card {
+        max-width: 25%;
+        align-items: start;
+        margin-top: 15px;
+        margin-bottom: 4rem;
+        /* gap:3rem */
+
+    }
+    .mission-card-text{
+        text-align: start;
+        font-size:1.2rem;
+    }
+
+    /* -----------our team section------------------- */
+    .team-member {
+        width: 28%;
+    }
+    
+    .team-member-img {
+        width: 100%; 
+        height: auto; 
+        display: block; 
+    }
+    
+    .team-member-title {
+        width: 100%; 
+        transform: translate(10%,-50%);
+    }
+    .our-team-content{
+        margin-bottom: 7rem;
+    }
+    .our-team-heading{
+        font-size: 4rem;
+    }
+    .our-team-text{
+        font-size:2rem;
+        padding-right:5rem;
+    }
+    /*------------ our impact contianer------------------- */
+    .our-impact-container {
+         padding: 6rem 0rem;
+    }
+    .our-impact-content-card{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: flex-start;
+    }
+    .impact-card{
+        width: 25%;
+    }
+    .our-impact-text{
+        font-size: 4rem;
+        width: 65rem;
+    }
+
+    /*----------------- take-look section ------------------------- */
+    .take-look-section .take-look-container {
+        margin: auto;
+        .take-look-header-container {
+          .take-look-title {
+            text-align: left;
+            width:60rem;
+            font-size:5.5rem;
+          }
+          .arrow-btn {
+            bottom: 50%;
+            transform: translate(-200%,0%);
+            
+          }
+        }
+    
+        .card-slide {
+          display: flex;
+          width: 200%;
+          gap: 2.5rem;
+          .take-card {
+            .take-year {
+              background-color: #fff;
+              font-size: 2.2rem;
+              color: var(--navy-blue);
+              padding: 0.7rem 5.5rem;
+              transform: translate(-70%,50%);
+            }
+            .image-card {
+              .take-card-title {
+                text-align:start;
+                font-size:2.6rem;
+              }
+    
+              .take-card-text {
+                text-align: left;
+                font-size: 1rem;
+                line-height: 1.9rem;
+              }
+              .card-info{
+                font-size:1.8rem;
+              }
+    
+              .read-btn {
+                align-self: flex-start;
+                padding:1.5rem 3rem;
+              }
+             
+            }
+          }
+        }
+      }
+    /* --------------subscribe section------------ */
+
+    .subscribe-container{
+        flex-direction: row;
+        gap:1.8rem;
+    }
+    .subscribe-text{
+        font-size:2.5rem;
+    }
+    .input-subscribe-container{
+        flex-direction: row;
+    }
+    
+
+    /* -------------footer-container--------- */
+    .footer-container{
+        flex-direction: row;
+        padding:5rem 0rem;
+        justify-content: space-between;
+    }
+    .footer-content{
+        gap:4rem
+    }
+    .footer-header{
+        padding-top:1.8rem;
+    }
+}
