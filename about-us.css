@@ -1,4 +1,8 @@
 /* -------------------------hero section ----------------------------- */
+@font-face {
+    font-family: "Flood Std";
+    src: url("./floodstd.otf") format("opentype");
+}
 .hero-section{
     background: url(/about-us/annie-spratt-427339-unsplash.png);
     background-repeat: no-repeat;
@@ -8,7 +12,7 @@
 
 }
 .hero-section-title{
-    font-family: 'flood std';
+    font-family: 'flood Std';
     font-weight: 400;
     font-size: 5.5rem;
     color: white;
@@ -235,8 +239,8 @@
         bottom: -75%;
         right: 0;
         background-color: #C0F6D4;
-        height: 6rem;
-        width: 6rem;
+        height: 5rem;
+        width: 5rem;
         padding: 0.8rem;
         border-radius: 50%;
       }
@@ -539,8 +543,10 @@
             .take-year {
               background-color: #fff;
               color: var(--navy-blue);
-              padding: 0.7rem 4rem;
-              transform: translate(-25%,50%);
+              padding: 0.5rem 3rem;
+              /* transform: translate(-25%,50%); */
+              align-self: flex-start;
+              margin-left:3rem;
             }
             .image-card {
               .take-card-title {
@@ -753,10 +759,12 @@
           .take-card {
             .take-year {
               background-color: #fff;
-              font-size: 2.2rem;
+              font-size: 1.5rem;
               color: var(--navy-blue);
-              padding: 0.7rem 5.5rem;
-              transform: translate(-70%,50%);
+              padding: 0.5rem 4rem;
+              align-self: flex-start;
+              margin-left: 3rem;
+              
             }
             .image-card {
               .take-card-title {

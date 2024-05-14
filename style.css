@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+@font-face {
+    font-family: "Flood Std";
+    src: url("./floodstd.otf") format("opentype");
+  }
 :root {
     --shady-green: #C0F6D4;
     --navy-blue: #354463;
@@ -72,7 +75,7 @@ button {
     line-height:1;
 }
 .flood-std-title{
-    font-family: 'flood std';
+    font-family: 'flood Std';
     font-weight: 400;
     font-size: 5.5rem;
     color: white; 
@@ -126,7 +129,7 @@ button {
 
 
 .footer-title{
-    font-family: 'flood std';
+    font-family: 'flood Std';
     font-weight: 400;
     font-size: 3.5rem;
     color:var(--navy-blue);
